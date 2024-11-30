@@ -1,7 +1,7 @@
-package io.github.sekelenao.skdocs.user;
+package io.github.sekelenao.starter.user;
 
-import io.github.sekelenao.skdocs.user.dto.send.PublicUserInfos;
-import io.github.sekelenao.skdocs.user.repository.UserRepository;
+import io.github.sekelenao.starter.user.dto.send.PublicUserInfos;
+import io.github.sekelenao.starter.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package io.github.sekelenao.skdocs.user;
+package io.github.sekelenao.starter.user;
 
-import io.github.sekelenao.skdocs.user.dto.send.PublicUserInfos;
+import io.github.sekelenao.starter.user.dto.send.PublicUserInfos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

@@ -1,7 +1,7 @@
-package io.github.sekelenao.skdocs.user.repository;
+package io.github.sekelenao.starter.user.repository;
 
-import io.github.sekelenao.skdocs.user.dto.send.PublicUserInfos;
-import io.github.sekelenao.skdocs.user.entity.UserEntity;
+import io.github.sekelenao.starter.user.dto.send.PublicUserInfos;
+import io.github.sekelenao.starter.user.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Objects;

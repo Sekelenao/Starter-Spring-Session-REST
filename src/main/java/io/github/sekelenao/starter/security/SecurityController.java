@@ -1,6 +1,6 @@
-package io.github.sekelenao.skdocs.security;
+package io.github.sekelenao.starter.security;
 
-import io.github.sekelenao.skdocs.security.dto.send.SessionInfos;
+import io.github.sekelenao.starter.security.dto.send.SessionInfos;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;

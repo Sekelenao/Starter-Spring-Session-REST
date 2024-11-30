@@ -1,4 +1,4 @@
-package io.github.sekelenao.skdocs.util;
+package io.github.sekelenao.starter.util;
 
 import java.util.Arrays;
 import java.util.Objects;

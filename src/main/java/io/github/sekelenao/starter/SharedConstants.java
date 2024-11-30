@@ -1,4 +1,4 @@
-package io.github.sekelenao.skdocs;
+package io.github.sekelenao.starter;
 
 public final class SharedConstants {
 

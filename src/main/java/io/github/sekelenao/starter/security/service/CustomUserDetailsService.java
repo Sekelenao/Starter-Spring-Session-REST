@@ -1,6 +1,6 @@
-package io.github.sekelenao.skdocs.security.service;
+package io.github.sekelenao.starter.security.service;
 
-import io.github.sekelenao.skdocs.user.repository.UserRepository;
+import io.github.sekelenao.starter.user.repository.UserRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

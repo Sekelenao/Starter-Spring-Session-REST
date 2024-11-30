@@ -1,4 +1,4 @@
-package io.github.sekelenao.skdocs;
+package io.github.sekelenao.starter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

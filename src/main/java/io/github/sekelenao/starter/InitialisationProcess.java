@@ -1,7 +1,7 @@
-package io.github.sekelenao.skdocs;
+package io.github.sekelenao.starter;
 
-import io.github.sekelenao.skdocs.user.entity.UserEntity;
-import io.github.sekelenao.skdocs.user.repository.UserRepository;
+import io.github.sekelenao.starter.user.entity.UserEntity;
+import io.github.sekelenao.starter.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -32,7 +32,7 @@ public final class InitialisationProcess implements ApplicationRunner {
     public void run(ApplicationArguments args) {
         if(args.containsOption(DEFAULT_USER_CREATION_ARG)){
             createDefaultUser(args.getOptionValues(DEFAULT_USER_CREATION_ARG));
-            LOGGER.warning("Default admin created. See documentation to disable.");
+            LOGGER.warning("Default user created. See documentation to disable.");
         }
     }
 
@@ -46,7 +46,7 @@ public final class InitialisationProcess implements ApplicationRunner {
                     " see documentation.");
         }
         if(options.size() > 2) {
-            throw new IllegalArgumentException("Only one admin account can be provided per boot.");
+            throw new IllegalArgumentException("Only one user account can be provided per boot.");
         }
         saveDefaultUser(options.get(0), passwordEncoder.encode(options.get(1)));
     }

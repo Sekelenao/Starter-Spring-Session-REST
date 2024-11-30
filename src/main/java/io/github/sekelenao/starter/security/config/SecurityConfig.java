@@ -1,7 +1,7 @@
-package io.github.sekelenao.skdocs.security.config;
+package io.github.sekelenao.starter.security.config;
 
-import io.github.sekelenao.skdocs.security.service.CustomUserDetailsService;
-import io.github.sekelenao.skdocs.user.repository.UserRepository;
+import io.github.sekelenao.starter.security.service.CustomUserDetailsService;
+import io.github.sekelenao.starter.user.repository.UserRepository;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package io.github.sekelenao.skdocs.user.entity;
+package io.github.sekelenao.starter.user.entity;
 
-import io.github.sekelenao.skdocs.SharedConstants;
+import io.github.sekelenao.starter.SharedConstants;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

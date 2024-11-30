@@ -1,4 +1,4 @@
-package io.github.sekelenao.skdocs.security.config;
+package io.github.sekelenao.starter.security.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;

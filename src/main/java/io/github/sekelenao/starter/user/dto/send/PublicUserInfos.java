@@ -1,6 +1,6 @@
-package io.github.sekelenao.skdocs.user.dto.send;
+package io.github.sekelenao.starter.user.dto.send;
 
-import io.github.sekelenao.skdocs.util.Assertions;
+import io.github.sekelenao.starter.util.Assertions;
 
 import java.util.Objects;
 
